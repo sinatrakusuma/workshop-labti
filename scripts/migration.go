@@ -27,7 +27,7 @@ type MigrationConfig struct {
 func main() {
 	data, err := ioutil.ReadFile("dbconfig.yml")
 	if err != nil {
-		log.Fatalf("read config file failed: %v", err)
+		log.Fatalf("read configs file failed: %v", err)
 	}
 
 	var cfg MigrationConfig
