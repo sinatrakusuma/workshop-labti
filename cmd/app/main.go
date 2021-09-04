@@ -8,7 +8,9 @@ package main
 import (
 	"context"
 	"flag"
+	handlerProduct "github.com/apldex/workshop-labti/internal/pkg/handler/product"
 	"github.com/apldex/workshop-labti/internal/pkg/resource/db"
+	usecaseProduct "github.com/apldex/workshop-labti/internal/pkg/usecase/product"
 	"github.com/apldex/workshop-labti/internal/pkg/utils/config"
 	"github.com/gorilla/mux"
 	"log"
@@ -32,13 +34,16 @@ func main() {
 		log.Fatalf("persistent db: %v", err)
 	}
 
-	_ = persistentDB
+	productUsecase := usecaseProduct.NewUsecase(persistentDB)
+	productHandler := handlerProduct.NewHandler(productUsecase)
 
 	r := mux.NewRouter()
 	r.HandleFunc("/health", func(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(http.StatusOK)
 		_, _ = w.Write([]byte("OK\n"))
 	})
+
+	r.HandleFunc("/product", productHandler.CreateProduct).Methods(http.MethodPost)
 
 	c := make(chan os.Signal, 1)
 	signal.Notify(c, os.Interrupt, os.Kill)

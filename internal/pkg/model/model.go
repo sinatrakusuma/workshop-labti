@@ -14,3 +14,17 @@ type User struct {
 	CreatedAt time.Time `json:"created_at"`
 	UpdatedAt time.Time `json:"updated_at"`
 }
+
+type Product struct {
+	ID        int       `json:"id"`
+	Name      string    `json:"name"`
+	SKU       string    `json:"sku"`
+	Stock     int       `json:"stock"`
+	Price     float64   `json:"price"`
+	CreatedAt time.Time `json:"created_at"`
+	UpdatedAt time.Time `json:"updated_at"`
+}
+
+func (p *Product) TableName() string {
+	return "products"
+}

@@ -6,6 +6,7 @@
 package db
 
 import (
+	"context"
 	"database/sql"
 	"fmt"
 	"github.com/apldex/workshop-labti/internal/pkg/model"
@@ -15,6 +16,8 @@ import (
 
 type Persistent interface {
 	GetUserByUsername(username string) (*model.User, error)
+	CreateProduct(ctx context.Context, product *model.Product) error
+	GetProduct(ctx context.Context, id int) (*model.Product, error)
 }
 
 type persistent struct {
