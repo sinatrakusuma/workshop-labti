@@ -1,1 +1,125 @@
-<mxfile host="app.diagrams.net" modified="2021-11-28T13:26:26.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" version="15.8.6" etag="NPyLXcgiQGKyOXenqjXA" type="github"><diagram id="ket1C8o2I5M2Pq9_tQum">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-29T02:35:42.074Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="SP6ZdlkbwycqIwCf8Taf" version="15.8.6" type="github">
+  <diagram id="ket1C8o2I5M2Pq9_tQum" name="Page-1">
+    <mxGraphModel dx="1871" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-1" value="admin" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-20" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-2" value="user" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="810" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-3" value="mitra" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-20" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-4" value="pembayaran" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="400" y="530" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-5" value="pemesanan" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="380" y="1050" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-25" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.085;entryY=0.229;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mMUEFXVCVyyeUsWMfWyc-1" target="mMUEFXVCVyyeUsWMfWyc-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="740" as="sourcePoint" />
+            <mxPoint x="500" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10" y="548" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-26" value="laporan maskapai&lt;br&gt;laporan jumlah penumpang&lt;br&gt;data penerbangan" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=middle;fontSize=15;spacingTop=-54;labelBackgroundColor=#FFFF99;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-27" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mMUEFXVCVyyeUsWMfWyc-4" target="mMUEFXVCVyyeUsWMfWyc-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="710" as="sourcePoint" />
+            <mxPoint x="500" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="570" />
+              <mxPoint x="290" y="640" />
+              <mxPoint x="40" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-28" value="Laporan daftar belanja&lt;br&gt;laporan pembayaran&lt;br&gt;laporan pemesanan&lt;br&gt;laporan konfirmasi pembayaran" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=top;fontSize=15;spacing=0;labelBackgroundColor=#99FF99;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-29" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.026;entryY=0.707;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mMUEFXVCVyyeUsWMfWyc-3" target="mMUEFXVCVyyeUsWMfWyc-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="930" as="sourcePoint" />
+            <mxPoint x="500" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-30" value="laporan ketersedian maskapai&lt;br&gt;info jumlah penumpang&lt;br&gt;laporan destinasi&lt;br&gt;laporan keberangkatan" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=15;spacingTop=72;horizontal=1;labelBackgroundColor=#99FF99;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-31" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mMUEFXVCVyyeUsWMfWyc-5" target="mMUEFXVCVyyeUsWMfWyc-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="980" as="sourcePoint" />
+            <mxPoint x="500" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-32" value="Label" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=15;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-33" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.413;exitY=-0.018;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mMUEFXVCVyyeUsWMfWyc-2" target="mMUEFXVCVyyeUsWMfWyc-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="660" as="sourcePoint" />
+            <mxPoint x="500" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="860" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-34" value="info pembayaran" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=15;labelBackgroundColor=#99FF99;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-35" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;entryX=0.57;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.918;exitY=0.251;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mMUEFXVCVyyeUsWMfWyc-4" target="mMUEFXVCVyyeUsWMfWyc-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="660" as="sourcePoint" />
+            <mxPoint x="500" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="878" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-36" value="laporan pesanan" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=15;labelBackgroundColor=#FFFF99;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-143" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-37" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.59;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mMUEFXVCVyyeUsWMfWyc-5" target="mMUEFXVCVyyeUsWMfWyc-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1020" as="sourcePoint" />
+            <mxPoint x="500" y="1020" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="881" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-38" value="info maskapai&lt;br&gt;info pembelian&lt;br&gt;info harga" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=top;fontSize=15;labelBackgroundColor=#99FF99;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-131" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-39" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.408;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mMUEFXVCVyyeUsWMfWyc-2" target="mMUEFXVCVyyeUsWMfWyc-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1010" as="sourcePoint" />
+            <mxPoint x="510" y="1010" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="429" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-40" value="laporan transaksi&lt;br&gt;&amp;nbsp;laporan biaya" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=#FFFF99;fontSize=15;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
