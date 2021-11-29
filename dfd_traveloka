@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T02:35:42.074Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="SP6ZdlkbwycqIwCf8Taf" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-29T11:31:25.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="jRKaJ-wDnN9Xy5adoMus" version="15.8.6" type="github">
   <diagram id="ket1C8o2I5M2Pq9_tQum" name="Page-1">
     <mxGraphModel dx="1871" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -28,8 +28,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mMUEFXVCVyyeUsWMfWyc-26" value="laporan maskapai&lt;br&gt;laporan jumlah penumpang&lt;br&gt;data penerbangan" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=middle;fontSize=15;spacingTop=-54;labelBackgroundColor=#FFFF99;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-25">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-26" value="konfirmasi pembayaran&amp;nbsp;" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=middle;fontSize=15;spacingTop=-54;labelBackgroundColor=#FFFF99;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="12" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="mMUEFXVCVyyeUsWMfWyc-27" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mMUEFXVCVyyeUsWMfWyc-4" target="mMUEFXVCVyyeUsWMfWyc-1">
           <mxGeometry relative="1" as="geometry">
@@ -37,14 +39,14 @@
             <mxPoint x="500" y="710" as="targetPoint" />
             <Array as="points">
               <mxPoint x="290" y="570" />
-              <mxPoint x="290" y="640" />
-              <mxPoint x="40" y="640" />
+              <mxPoint x="220" y="570" />
+              <mxPoint x="40" y="570" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mMUEFXVCVyyeUsWMfWyc-28" value="Laporan daftar belanja&lt;br&gt;laporan pembayaran&lt;br&gt;laporan pemesanan&lt;br&gt;laporan konfirmasi pembayaran" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=top;fontSize=15;spacing=0;labelBackgroundColor=#99FF99;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-27">
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-28" value="Laporan daftar belanja&lt;br&gt;laporan pembayaran&lt;br&gt;laporan pemesanan&lt;br&gt;laporan konfirmasi pembayaran" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;fontSize=15;spacing=0;labelBackgroundColor=#99FF99;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-27">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-29" as="offset" />
+            <mxPoint x="-20" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mMUEFXVCVyyeUsWMfWyc-29" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.026;entryY=0.707;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mMUEFXVCVyyeUsWMfWyc-3" target="mMUEFXVCVyyeUsWMfWyc-5">
@@ -53,8 +55,10 @@
             <mxPoint x="500" y="930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mMUEFXVCVyyeUsWMfWyc-30" value="laporan ketersedian maskapai&lt;br&gt;info jumlah penumpang&lt;br&gt;laporan destinasi&lt;br&gt;laporan keberangkatan" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=15;spacingTop=72;horizontal=1;labelBackgroundColor=#99FF99;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-29">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-30" value="laporan ketersedian hotel&lt;br&gt;info jumlah kamar&lt;br&gt;laporan check in" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=middle;fontSize=15;spacingTop=72;horizontal=1;labelBackgroundColor=#99FF99;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-71" y="-6" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="mMUEFXVCVyyeUsWMfWyc-31" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mMUEFXVCVyyeUsWMfWyc-5" target="mMUEFXVCVyyeUsWMfWyc-3">
           <mxGeometry relative="1" as="geometry">
@@ -62,7 +66,7 @@
             <mxPoint x="500" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mMUEFXVCVyyeUsWMfWyc-32" value="Label" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=15;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-31">
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-32" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 153)&quot;&gt;laporan pembelian&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=15;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mMUEFXVCVyyeUsWMfWyc-33" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.413;exitY=-0.018;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mMUEFXVCVyyeUsWMfWyc-2" target="mMUEFXVCVyyeUsWMfWyc-4">
@@ -74,8 +78,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mMUEFXVCVyyeUsWMfWyc-34" value="info pembayaran" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=15;labelBackgroundColor=#99FF99;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-33">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-34" value="konfirmasi pembayaran" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=top;fontSize=15;labelBackgroundColor=#99FF99;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-130" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="mMUEFXVCVyyeUsWMfWyc-35" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;entryX=0.57;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.918;exitY=0.251;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mMUEFXVCVyyeUsWMfWyc-4" target="mMUEFXVCVyyeUsWMfWyc-2">
           <mxGeometry relative="1" as="geometry">
@@ -86,7 +92,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mMUEFXVCVyyeUsWMfWyc-36" value="laporan pesanan" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=15;labelBackgroundColor=#FFFF99;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-35">
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-36" value="konfirmasi pesanan&lt;br&gt;info pembayaran" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=bottom;fontSize=15;labelBackgroundColor=#FFFF99;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-35">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-143" as="offset" />
           </mxGeometry>
@@ -100,9 +106,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mMUEFXVCVyyeUsWMfWyc-38" value="info maskapai&lt;br&gt;info pembelian&lt;br&gt;info harga" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=top;fontSize=15;labelBackgroundColor=#99FF99;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-37">
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-38" value="info hotel&lt;br&gt;info pembelian&lt;br&gt;info harga" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;fontSize=15;labelBackgroundColor=#99FF99;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-37">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-131" y="-20" as="offset" />
+            <mxPoint x="-221" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mMUEFXVCVyyeUsWMfWyc-39" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.408;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mMUEFXVCVyyeUsWMfWyc-2" target="mMUEFXVCVyyeUsWMfWyc-5">
@@ -110,14 +116,50 @@
             <mxPoint x="410" y="1010" as="sourcePoint" />
             <mxPoint x="510" y="1010" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="429" y="780" />
+              <mxPoint x="700" y="780" />
+              <mxPoint x="700" y="960" />
+              <mxPoint x="429" y="960" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mMUEFXVCVyyeUsWMfWyc-40" value="laporan transaksi&lt;br&gt;&amp;nbsp;laporan biaya" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=#FFFF99;fontSize=15;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-39">
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-40" value="pemesanan kamar" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=middle;labelBackgroundColor=#FFFF99;fontSize=15;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-39">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="105" as="offset" />
+            <mxPoint x="-135" y="10" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-41" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;exitX=0.576;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.83;entryY=-0.063;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mMUEFXVCVyyeUsWMfWyc-4" target="mMUEFXVCVyyeUsWMfWyc-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="920" as="sourcePoint" />
+            <mxPoint x="260" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="469" y="910" />
+              <mxPoint x="80" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-42" value="laporan pemesanan hotel" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=#99FF99;fontSize=15;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-43" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;exitX=0.404;exitY=-0.029;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mMUEFXVCVyyeUsWMfWyc-3" target="mMUEFXVCVyyeUsWMfWyc-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="1050" as="sourcePoint" />
+            <mxPoint x="200" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="880" />
+              <mxPoint x="190" y="880" />
+              <mxPoint x="460" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-44" value="laporan ketersediaan&amp;nbsp;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=#FFFF99;fontSize=15;" connectable="0" vertex="1" parent="mMUEFXVCVyyeUsWMfWyc-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMUEFXVCVyyeUsWMfWyc-45" value="&lt;font style=&quot;font-size: 20px&quot;&gt;DFD TRAVELOKA LEVEL 0 UNTUK BOOKING HOTEL&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="255" y="370" width="510" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
